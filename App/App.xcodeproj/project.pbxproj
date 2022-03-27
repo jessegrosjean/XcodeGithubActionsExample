@@ -14,7 +14,6 @@
 		432375B827EF623D00731E0B /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432375B727EF623D00731E0B /* AppTests.swift */; };
 		432375C227EF623D00731E0B /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432375C127EF623D00731E0B /* AppUITests.swift */; };
 		432375C427EF623D00731E0B /* AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432375C327EF623D00731E0B /* AppUITestsLaunchTests.swift */; };
-		432375D227EF635600731E0B /* ExampleLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 432375D127EF635600731E0B /* ExampleLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432375D227EF635600731E0B /* ExampleLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +146,6 @@
 			);
 			name = App;
 			packageProductDependencies = (
-				432375D127EF635600731E0B /* ExampleLibrary */,
 			);
 			productName = App;
 			productReference = 432375A227EF623B00731E0B /* App.app */;
@@ -592,13 +589,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		432375D127EF635600731E0B /* ExampleLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ExampleLibrary;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4323759A27EF623B00731E0B /* Project object */;
 }
