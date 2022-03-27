@@ -1,0 +1,12 @@
+name: Build
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: mxcl/Xcodebuild
+        uses: mxcl/xcodebuild@v1.10.0
